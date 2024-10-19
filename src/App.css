@@ -1,0 +1,155 @@
+#root {
+  max-width: 100%;
+  text-align: center;
+}
+
+html, body {
+  background-image: url('/images/bg-img.jpg');
+  /* background-color: #202020; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; 
+  overflow-y: auto;
+}
+
+/* ----------------HEADER */
+.navbar {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background-color: rgb(51 51 51);
+}
+
+/* ---------------- HOME */
+.full-screen-carousel {
+  height: 500px;
+  width: 100vw;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.full-screen-carousel img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.menu {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border: solid #bbb 1px;
+
+}
+
+.menu:hover {
+  scale: 1.05;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(255, 255, 255, 0.856);
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-item:nth-child(odd) {
+  flex-direction: row;
+}
+
+.menu-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.menu-details {
+  margin: 20px;
+  text-align: left;
+  color: antiquewhite;
+  max-width: 600px;
+}
+
+.menu-details h1 {
+  font-size: 2rem;
+}
+
+.menu-details h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+button {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: 2px solid gold;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: gold;
+  color: black;
+}
+
+/* ---------------- FOOTER */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .social-icons {
+  margin: 20px 0;
+}
+
+.footer .social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: gold;
+}
+
+.footer .contact-info {
+  margin: 20px 0;
+}
+
+.footer .contact-info p {
+  margin: 5px 0;
+}
+
+.footer .address {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer p.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #bbb;
+}
