@@ -4,7 +4,7 @@
 }
 
 html, body {
-  background-image: url('/images/bg-img.jpg');
+  background-image: url('/images/bg-img2.jpg');
   /* background-color: #202020; */
   background-size: cover;
   background-repeat: no-repeat;
@@ -108,7 +108,7 @@ button:hover {
 .footer {
   background-color: #333;
   color: #fff;
-  padding: 30px 0;
+  padding: 10px 0;
   text-align: center;
   width: 100%;
   margin-top: 40px;
