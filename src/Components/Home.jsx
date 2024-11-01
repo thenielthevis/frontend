@@ -20,6 +20,13 @@ const Home = () => {
             alt="Sizzlingbanner"
           />
         </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="./images/drinks-banner.jpg"
+            alt="Drinksbanner"
+          />
+        </Carousel.Item>
       </Carousel>
 
       <div className="menu-container">
@@ -50,12 +57,12 @@ const Home = () => {
         <div className="menu-item">
           <img
             className="menu"
-            src="./images/DrinkMenu.jpg"
-            alt="DrinkMenu"
+            src="./images/PastaMenu.jpg"
+            alt="PastaMenu"
           />
           <div className="menu-details">
-            <h1>DRINKS MENU</h1>
-            <h3>Quench your thirst with our selection of refreshing drinks, each sip is a burst of flavor you won't forget.</h3>
+            <h1>PASTA MENU</h1>
+            <h3>Each plate is crafted with premium ingredients, bursting with flavors that will transport you to the heart of Italy. Perfectly cooked, perfectly sauced—get ready to twirl your fork into deliciousness!</h3>
             <button>Order Now!</button>
           </div>
         </div>
